@@ -1,0 +1,51 @@
+
+div{
+    margin: 10px;
+    border: 1px solid rgb(73, 8, 8);
+    font-size: 20px;
+    height: 80px;
+}
+#header{ 
+    background-color: #ebd3ff;
+}
+#leftSidebar{
+background-color: #c3aed6;
+float: left;
+width: 300px;
+}
+#rightSidebar{
+background-color: #c3aed6;
+float: right;
+width: 300px;
+}
+#main{
+background-color: #cfa4ff;
+height: 200px;
+margin-left: 170px;
+margin-right: 170px;
+}
+#footer{ 
+    background-color: #cbbfe0;
+}
+
+@keyframes text1
+{
+    10%{opacity: 1;}
+    40%{opacity: 0;}
+}  
+@keyframes text2
+{
+    30%{opacity: 0;}
+    60%{opacity:1;}
+}
+@keyframes banner
+{
+    10%{background-color: #008978;}
+    40%{background-color: #34495e;}
+    80%{background-color: green;}
+}
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
